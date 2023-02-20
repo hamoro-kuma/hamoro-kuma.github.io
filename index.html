@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio</title>
-</head>
-<body>
-  <p>Hello, World!</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamoro, co.</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .nav-container {
+        background-color: darkslategray;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+      }
+      .nav-item {
+        padding: 15px;
+        cursor: pointer;
+      }
+      /* .nav-item:hover {
+        background-color: deeppink;
+      } */
+      .nav-item a {
+        text-align: center;
+        text-decoration: none;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-container">
+        <li class="nav-item"><a href="#">Hamoro</a></li>
+        <li class="nav-item"><a href="#">회사소개</a></li>
+        <li class="nav-item"><a href="#">서비스</a></li>
+        <li class="nav-item"><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main style="height: 3000px; background-color: gray"></main>
+  </body>
 </html>
